@@ -13,3 +13,12 @@ The window has four tabs:
     Captures can be saved as CSV (which your MATLAB script can also open) or reloaded later. Your existing Tektronix/CDAQ CSV exports load too.
 3. Harmonic analysis: the same settings as your script, with a coloured PASS/FAIL banner and per-phase current and voltage tables. Failing harmonics are highlighted in the harmonics table. “Save Excel report” writes the same five sheets, with the plots embedded and a PNG folder alongside.
 4. Plots: your script’s six plots, each with zoom and pan.
+
+
+PySide6>=6.5
+numpy>=1.23
+matplotlib>=3.6
+openpyxl>=3.1
+pillow>=9.0
+pyvisa>=1.13
+pyvisa-py>=0.7
