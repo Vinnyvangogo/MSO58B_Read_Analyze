@@ -16,9 +16,16 @@ The window has four tabs:
 
 
 PySide6>=6.5
+
 numpy>=1.23
+
 matplotlib>=3.6
+
 openpyxl>=3.1
+
 pillow>=9.0
+
 pyvisa>=1.13
+
 pyvisa-py>=0.7
+
